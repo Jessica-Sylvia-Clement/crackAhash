@@ -59,7 +59,7 @@ At the end of service, we serve a neat summary:
 - 🚫 Which were exotic ostrich eggs (unsupported).  
 - 🤷 Which turned out not to be eggs at all (unidentified).  
 
-### 🎉 Closing time
+### 🍾 Closing time
 When the last dish is served, the chefs hang up their aprons,  
 wipe down the counters, and celebrate another day of cracked secrets.  
 
