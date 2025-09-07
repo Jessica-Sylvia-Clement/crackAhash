@@ -1,6 +1,11 @@
-# crackAhash v1.0 🍳  
+<h1 align="center">crackAhash 🍳</h1>
+<p align="center">
+  <b>A fun egg-themed hash cracker!</b>
+</p>
+<p align="center">
+  <span style="color:red"><b>v1.0</b></span>
+</p>
 
-_A fun egg-themed hash cracker!_  
 
 <p align="center">
   <a href="https://docs.python.org/3/">
@@ -31,7 +36,25 @@ Either way, we don’t leave the kitchen until the secrets are served hot. 🔥
 - **Colorful Kitchen Logs** → shows which eggs cracked, burnt, or still in the pan  
 
 ---
+## 🔧 Configuration (API Keys)
 
+Some providers like [md5decrypt.net](https://md5decrypt.net) require an **email + API code**.
+
+1. Register for a free account at [md5decrypt.net/register](https://md5decrypt.net/register).
+2. Copy your **email** and **API code**.
+3. Set them as environment variables in your terminal before running crackAhash:
+
+### Linux / macOS
+```bash
+export MD5DECRYPT_EMAIL="youremail@example.com"
+export MD5DECRYPT_CODE="your_api_code_here"
+```
+### Windows (PowerShell)
+```bash
+setx MD5DECRYPT_EMAIL "youremail@example.com"
+setx MD5DECRYPT_CODE "your_api_code_here"
+```
+---
 ## Usage
 
 ### Crack a single hash
