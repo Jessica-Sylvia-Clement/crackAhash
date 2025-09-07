@@ -3,9 +3,13 @@
 
 _A fun egg-themed hash cracker!_  
 
-[![Version](https://img.shields.io/badge/version-1.0-green.svg)]()  
-[![Python](https://img.shields.io/badge/python-3.x-blue.svg)]()  
-[![License](https://img.shields.io/badge/license-MIT-yellow.svg)]()  
+<p align="center">
+  <img src="https://img.shields.io/badge/version-1.0-green.svg" />
+  <img src="https://img.shields.io/badge/python-3.x-blue.svg" />
+  <img src="https://img.shields.io/badge/license-MIT-yellow.svg" />
+  <img src="https://img.shields.io/badge/status-active-brightgreen.svg" />
+</p>
+
 
 ---
 
@@ -33,32 +37,32 @@ Either way, we don’t leave the kitchen until the secrets are served hot. 🔥
 ### Crack a single hash
 ```bash
 python3 crackAhash.py -s 5f4dcc3b5aa765d61d8327deb882cf99
-
+```
 ### Crack all hashes in a file
 ```bash
 python3 crackAhash.py -f hashes.txt
-
+```
 ### Hunt for hashes in a directory
 ```bash
 python3 crackAhash.py -d /path/to/dir
-
-##Requirements
+```
+## Requirements
 
 Python 3.x
 Hashcat (optional, for local cracking)
-Wordlist: rockyou.txt (comes with Kali Linux under /usr/share/wordlists/rockyou.txt)
+Wordlist: (`rockyou.txt`) (comes with Kali Linux under (`/usr/share/wordlists/rockyou.txt`))
 
 Install Python dependencies:
 ```bash
 pip install -r requirements.txt
-
+```
 ## Supported Hashes
 
 MD5
 SHA1
 SHA256
 SHA512
-(More coming soon — scrambled, sunny side up, and over easy 😏)
+(More coming soon)
 
 ## Example Output
 [🥚] Scrambling eggs...
