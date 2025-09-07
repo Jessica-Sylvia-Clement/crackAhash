@@ -32,7 +32,7 @@ Either way, we don’t leave the kitchen until the secrets are served hot. 🔥
 - **Colorful Kitchen Logs** → shows which eggs cracked, burnt, or still in the pan  
 
 ---
-## 🔧 Configuration (API Keys)
+## Configuration (API Keys)
 
 Some providers like [md5decrypt.net](https://md5decrypt.net) require an **email + API code**.
 
