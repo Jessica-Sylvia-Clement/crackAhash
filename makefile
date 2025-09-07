@@ -11,5 +11,5 @@ install:
 
 uninstall:
 	@sudo rm -f $(DESTDIR)/$(TARGET)
-	@echo "crackAhash has been removed from the kitchen!"
+	@echo "crackAhash has been removed..kitchen closed!"
 
