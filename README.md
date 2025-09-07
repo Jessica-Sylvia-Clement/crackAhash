@@ -1,15 +1,15 @@
-# crackAhash v1.0 🥚🍳  
-**by Jess**  
+# crackAhash v1.0 🍳  
 
 _A fun egg-themed hash cracker!_  
 
 <p align="center">
-  <img src="https://img.shields.io/badge/version-1.0-green.svg" />
-  <img src="https://img.shields.io/badge/python-3.x-blue.svg" />
-  <img src="https://img.shields.io/badge/license-MIT-yellow.svg" />
-  <img src="https://img.shields.io/badge/status-active-brightgreen.svg" />
+  <a href="https://docs.python.org/3/">
+    <img src="https://img.shields.io/badge/python-3.x-blue.svg" />
+  </a>
+  <a href="https://github.com/Jessica-Sylvia-Clement/crackAhash/blob/main/LICENSE">
+    <img src="https://img.shields.io/badge/license-MIT-yellow.svg" />
+  </a>
 </p>
-
 
 ---
 
@@ -48,9 +48,9 @@ python3 crackAhash.py -d /path/to/dir
 ```
 ## Requirements
 
-Python 3.x
-Hashcat (optional, for local cracking)
-Wordlist: (`rockyou.txt`) (comes with Kali Linux under (`/usr/share/wordlists/rockyou.txt`))
+- Python 3.x
+- Hashcat (optional, for local cracking)
+- Wordlist: `rockyou.txt` (comes with Kali Linux under `/usr/share/wordlists/rockyou.txt`)
 
 Install Python dependencies:
 ```bash
@@ -65,10 +65,10 @@ pip install -r requirements.txt
 - (More coming soon)
 
 ## Example Output
-[🥚] Scrambling eggs...
-[🥄] Sorting eggs...
-[🍳] Eggs cooked: 5f4dcc3b5aa765d61d8327deb882cf99 : password (via md5decrypt.net)
-[❌] Burnt batch: hash not found.
+- [🥚] Scrambling eggs...
+- [🥄] Sorting eggs...
+- [🍳] Eggs cooked: 5f4dcc3b5aa765d61d8327deb882cf99 : password (via md5decrypt.net)
+- [❌] Burnt batch: hash not found.
 
 
 
