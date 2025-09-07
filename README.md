@@ -51,19 +51,34 @@ setx MD5DECRYPT_EMAIL "youremail@example.com"
 setx MD5DECRYPT_CODE "your_api_code_here"
 ```
 ---
+## Installation
+### 1. Clone the repo
+```bash
+git clone https://github.com/<your-username>/crackAhash.git
+cd crackAhash
+```
+### 2. Install system-wide
+```bash
+sudo make install
+```
+### 3. Don’t want it anymore?
+```bash
+sudo make uninstall
+```
+--- 
 ## Usage
 
 ### Crack a single hash
 ```bash
-python3 crackAhash.py -s 5f4dcc3b5aa765d61d8327deb882cf99
+crackAhash -s 5f4dcc3b5aa765d61d8327deb882cf99
 ```
 ### Crack all hashes in a file
 ```bash
-python3 crackAhash.py -f hashes.txt
+crackAhash -f hashes.txt
 ```
 ### Hunt for hashes in a directory
 ```bash
-python3 crackAhash.py -d /path/to/dir
+crackAhash -d /path/to/dir
 ```
 ## Requirements
 
@@ -71,10 +86,6 @@ python3 crackAhash.py -d /path/to/dir
 - Hashcat (optional, for local cracking)
 - Wordlist: `rockyou.txt` (comes with Kali Linux under `/usr/share/wordlists/rockyou.txt`)
 
-Install Python dependencies:
-```bash
-pip install -r requirements.txt
-```
 ## Supported Hashes
 
 - MD5
