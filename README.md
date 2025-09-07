@@ -27,6 +27,44 @@ Either way, we don’t leave the kitchen until the secrets are served hot. 🔥
  \__||_|  \__,_|\__||_|\_\/__/  \__\|_| |_|\__, ||___/|_| |_|
                                                  v1.0 by Jess
 ```
+## The Story
+
+### The Chef’s Kitchen of Secrets
+
+As the **head chef**, our mission is simple:  
+**crack the eggs (hashes), reveal the yolks (passwords/secrets), and turn them into delicious dishes (results).**
+
+### 🥚 Identifying the eggs
+Not all eggs are the same. Some are small like **MD5 quail eggs** that crack open easily, some a bit larger like **SHA1 or SHA256 chicken eggs** that take a bit more effort. And sometimes we get a giant **ostrich egg (bcrypt)** — but alas, we don’t yet have the right pan for that one, so it stays uncracked for now.  
+
+### 👩‍🍳 How we crack them
+Every egg can be cracked in one of three ways:  
+1. **Ask a friend (API1)**   
+2. **Ask another friend (API2)**   
+3. **Smash it ourselves → use Hashcat, brute force with a trusty rock (wordlist)**   
+
+### 🍽️ Orders big and small
+Sometimes a customer just wants a single sunny-side-up (one hash).
+Other times, we get a bulk restaurant order — it could be omelettes, boiled, poached… basically different egg dishes (a file full of hashes, of different types).
+And occasionally, we cater a wedding with crates of eggs (an entire directory to scan). 
+
+### 🧑‍🤝‍🧑 More chefs in the kitchen
+When the restaurant is busy, we bring in more **chefs (threads)**.  
+Each chef grabs an egg and cracks it in parallel, so the meals come out faster.  
+And yes — even Chef Gordon Ramsay works for us when things get hectic😜.
+
+### 📋 The kitchen report
+At the end of service, we serve a neat summary:  
+- ✅ How many eggs were cracked (secrets revealed).  
+- ❌ Which eggs were burnt (not found).  
+- 🚫 Which were exotic ostrich eggs (unsupported).  
+- 🤷 Which turned out not to be eggs at all (unidentified).  
+
+### 🎉 Closing time
+When the last dish is served, the chefs hang up their aprons,  
+wipe down the counters, and celebrate another day of cracked secrets.  
+
+---
 
 ## Features
 
@@ -103,7 +141,7 @@ crackAhash -d /path/to/dir
 ## Example Output
 - [🥚] Scrambling eggs...
 - [🥄] Sorting eggs...
-- [🍳] Eggs cooked: 5f4dcc3b5aa765d61d8327deb882cf99 : password (via md5decrypt.net)
+- [🍳] Eggs cooked: 5f4dcc3b5aa765d61d8327deb882cf99 : password (via md5decrypt.net) — thanks to Chef Gordon! 👩‍🍳
 - [❌] Burnt batch: hash not found.
 
 
