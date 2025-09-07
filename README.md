@@ -1,8 +1,5 @@
 <h1 align="center">crackAhash 🍳</h1>
 <p align="center">
-  <img src="https://img.shields.io/badge/version-v1.0-red.svg" />
-</p>
-<p align="center">
   <b>A fun egg-themed hash cracker!</b>
 </p>
 
