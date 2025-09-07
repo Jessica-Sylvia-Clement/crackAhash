@@ -31,8 +31,7 @@ Either way, we don’t leave the kitchen until the secrets are served hot. 🔥
 
 ### The Chef’s Kitchen of Secrets
 
-As the **head chef**, our mission is simple:  
-**crack the eggs (hashes), reveal the yolks (passwords/secrets), and turn them into delicious dishes (results).**
+As the **head chef**, our mission is simple:**crack the eggs (hashes), reveal the yolks (passwords/secrets), and turn them into delicious dishes (results).**
 
 ### 🥚 Identifying the eggs
 Not all eggs are the same. Some are small like **MD5 quail eggs** that crack open easily, some a bit larger like **SHA1 or SHA256 chicken eggs** that take a bit more effort. And sometimes we get a giant **ostrich egg (bcrypt)** — but alas, we don’t yet have the right pan for that one, so it stays uncracked for now.  
