@@ -2,7 +2,6 @@
 <p align="center">
   <b>A fun egg-themed hash cracker!</b>
 </p>
-
 <p align="center">
   <a href="https://docs.python.org/3/">
     <img src="https://img.shields.io/badge/python-3.x-blue.svg" />
@@ -19,6 +18,7 @@
 Welcome to **crackAhash** — where every hash is just an egg waiting to be cracked!  
 Some shells split open with a single tap (online APIs), others need a good whack (Hashcat).  
 Either way, we don’t leave the kitchen until the secrets are served hot. 🔥
+<img width="627" height="136" alt="Screenshot 2025-09-07 205409" src="https://github.com/user-attachments/assets/a0af0e7b-6894-454c-b9bb-b39b7bdb0383" />
 
 ---
 
