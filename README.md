@@ -1,11 +1,10 @@
 <h1 align="center">crackAhash 🍳</h1>
 <p align="center">
-  <b>A fun egg-themed hash cracker!</b>
+  <img src="https://img.shields.io/badge/version-v1.0-red.svg" />
 </p>
 <p align="center">
-  <span style="color:red"><b>v1.0</b></span>
+  <b>A fun egg-themed hash cracker!</b>
 </p>
-
 
 <p align="center">
   <a href="https://docs.python.org/3/">
