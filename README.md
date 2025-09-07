@@ -58,11 +58,11 @@ pip install -r requirements.txt
 ```
 ## Supported Hashes
 
--MD5
--SHA1
--SHA256
--SHA512
--(More coming soon)
+- MD5
+- SHA1
+- SHA256
+- SHA512
+- (More coming soon)
 
 ## Example Output
 [🥚] Scrambling eggs...
