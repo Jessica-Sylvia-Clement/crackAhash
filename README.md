@@ -25,7 +25,7 @@ Either way, we don’t leave the kitchen until the secrets are served hot. 🔥
  / _|| '__/ _` |/ _|| |/  / / /\ \  | '_ \ / _` |/ __||  _ \.
 | (_ [ | | (_| | (_||    / /  __  \ | | | | (_| |\__ \| | | |
  \__||_|  \__,_|\__||_|\_\/__/  \__\|_| |_|\__, ||___/|_| |_|
-
+                                                 v1.0 by Jess
 ```
 
 ## Features
